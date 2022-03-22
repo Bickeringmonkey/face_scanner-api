@@ -4,7 +4,8 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node server.js",
+    "start:dev": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +20,7 @@
     "cors": "^2.8.5",
     "express": "^4.17.3",
     "knex": "^1.0.4",
-    "pg": "^8.7.3"
+    "pg": "^8.7.3",
+    "nodemon": "^1.11.1"
   }
 }
